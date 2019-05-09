@@ -1,0 +1,28 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://source.unsplash.com/P18ZFezFmLQ/1600x900");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin: 0px;
+}
+
+.banner h3 {
+  font-weight: lighter;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin: 0px;
+  font-size: 25px;
+}
+
+.banner-content {
+  justify-content: space-between;
+
+}

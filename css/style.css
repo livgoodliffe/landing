@@ -1,0 +1,58 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700);
+
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h3 {
+  font-family: Lora;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  text-align: center;
+  margin: 5vw;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 8px;
+}
+
+li > a {
+  color: white;
+}
